@@ -16,3 +16,11 @@
     virtualenv $HOME/.env
     source $HOME/.env/bin/activate
     pip install -r requirements.txt
+
+### 03. creating the project 'clocking' and verify it
+
+    django-admin startproject clocking
+    cd clocking
+    # edit clocking/settings.py and add u'clocking-sdoro.c9users.io' to ALLOWED_HOSTS
+    python manage.py runserver $IP:$PORT
+    # firefox https://clocking-sdoro.c9users.io
