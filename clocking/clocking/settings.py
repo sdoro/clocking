@@ -31,6 +31,7 @@ ALLOWED_HOSTS = [u'clocking-sdoro.c9users.io']
 # Application definition
 
 INSTALLED_APPS = [
+    'clockio',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

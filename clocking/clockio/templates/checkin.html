@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block title %}
+    {{ cntx.Cognome }} - {{ cntx.Nome }}
+{% endblock %}
+
+{% block saluto %}
+    {{ cntx.CheckPoint }} <br> {{ cntx.Ora }}
+{% endblock %}

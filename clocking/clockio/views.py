@@ -11,8 +11,10 @@ def greets(request):
      "</body></html>"
     return HttpResponse(html)
 
-def clockin(request):
-    pass
+def checkin(request):
+    tmp = {'Cognome': "Rossi", 'Nome': "Pierino", 'CheckPoint': "LAM2", 'Ora': datetime.now() }
+    return render(request, 'checkin.html', {'cntx': tmp})
 
-def clockout(request):
-    pass
+def checkout(request):
+    tmp = {'Cognome': "Rossi", 'Nome': "Pierino", 'CheckPoint': "LAM2", 'Ora': datetime.now(), 'Durata': 340 }
+    return render(request, 'checkout.html', {'cntx': tmp})

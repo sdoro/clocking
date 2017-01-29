@@ -37,3 +37,13 @@
     # edit clockio/urls.py
     python manage.py runserver $IP:$PORT
     # firefox https://clocking-sdoro.c9users.io/
+
+### 06. make a template inheritance, static files and views
+
+    mkdir -p clockio/templates
+    > clockio/templates/base.html
+    > clockio/templates/checkin.html
+    > clockio/templates/checkout.html
+    mkdir -p clockio/static/clockio/css
+    > clockio/static/clockio/css/style.css
+    # edit clocking/settings.py

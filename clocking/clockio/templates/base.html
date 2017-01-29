@@ -1,0 +1,15 @@
+{% load static %}
+<!doctype html>
+<html>
+    
+<head>
+  <title>{% block title %}This is block title (default){% endblock %}</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'clockio/css/style.css' %}" />
+</head>
+
+<body>
+  <p>
+    {% block saluto %}This is block saluto (default){% endblock %}
+  </p>
+</body>
+</html>
