@@ -28,3 +28,12 @@
 ### 04. creating the 'clockio' app
 
     python manage.py startapp clockio
+
+### 05. write your greets view
+
+    # edit clockio/views.py
+    > clockio/urls.py
+    # edit clocking/urls.py
+    # edit clockio/urls.py
+    python manage.py runserver $IP:$PORT
+    # firefox https://clocking-sdoro.c9users.io/
