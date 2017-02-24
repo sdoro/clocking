@@ -47,3 +47,8 @@
     mkdir -p clockio/static/clockio/css
     > clockio/static/clockio/css/style.css
     # edit clocking/settings.py
+
+### 07. add checkpoints to url
+
+    # edit clockio/urls.py
+    # edit clockio/views.py
